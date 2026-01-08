@@ -1,5 +1,3 @@
-# Real Math Problems!
-Subscription-based math problems.
 <!DOCTYPE html>
 <!--
   REAL_ALGEBRA_MATH_PROBLEMS: index
