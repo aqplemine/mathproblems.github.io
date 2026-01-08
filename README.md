@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!--
   REAL_ALGEBRA_MATH_PROBLEMS: index
   Description: REAL MATH GAMES NOT FAKE :D
@@ -11,7 +10,6 @@
   </head>
   <body>
     <!-- Your HTML Here -->
-    <!DOCTYPE html>
 <html>
 <body>
 
