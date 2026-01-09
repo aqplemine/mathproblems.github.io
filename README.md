@@ -34,7 +34,7 @@ if any of these files needs a password, its the same one in here. aka, realgames
 </body>
 </html>
 
-<a href="https://www.google.com/In_Fixing_Don't_Worry_I'm_Fixing_It!" target="_blank"><button>[CONTACT ME TO VIEW][USE THE SAMEPASSCODE AS LISTED HERE] View my uploaded games (external, but by me)</button></a>
+<a href="https://www.google.com/Contact_Me_To_Get_It_(:" target="_blank"><button>[CONTACT ME TO VIEW][USE THE SAMEPASSCODE AS LISTED HERE] View my uploaded games (external, but by me)</button></a>
 <button 
         onclick='fetch("https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile@main/AASINGLEFILE.html?t="+Date.now()).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
         style="width: 100%; height: 100%; font-size: 100;"
