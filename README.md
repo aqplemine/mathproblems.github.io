@@ -78,7 +78,7 @@ Wanna view any (visitable on your device) website, but it shows as about:blank? 
 <body>
 
 <h2>about:blank URL Viewer</h2>
-
+This lets you see any (allowed) page, while it shows as an about:blank page! (IN WIP)
 <input id="url" placeholder="https://example.com (saying https is not needed, saying http is needed.)" size="100">
 <button onclick="openBlank()">Open</button>
 
