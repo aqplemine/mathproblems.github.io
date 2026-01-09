@@ -18,7 +18,7 @@ alert("Note, you are accessing our premium math problems, so it requires a subsc
 if (confirm("Would you like to try your subscription key, or leave our website?")) {
   let userInput = prompt("Please enter your subscription key to access our premium math products:");
 
-if (userInput === null || userInput !== "realgames2026") {
+if (userInput === null || userInput !== "realgamesin2026") {
     window.location.href = "https://www.google.com/Acces_Denied._Subscription_Key_Required_To_Unlock_Extended_Algebra_Problems.";
 }
 } else {
@@ -27,6 +27,8 @@ if (userInput === null || userInput !== "realgames2026") {
 
 </script>
 COMING SOON: Embedded games, right in this website.
+THE FILE DRIVE GAMES KIT IS DOWN! I'M FIXING IT!
+if any of these files needs a password, its the same one in here.
 </body>
 </html>
 
