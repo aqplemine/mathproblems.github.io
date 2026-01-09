@@ -14,19 +14,33 @@
 <body>
 
 <script>
-alert("Note, you are accessing our premium math problems, so it requires a subscription key, as these math problems have taken us days to come up with.");
-if (confirm("Would you like to try your subscription key, or leave our website?")) {
-  let userInput = prompt("Please enter your subscription key to access our premium math products:");
+  // 1. Define your users and passwords here
+  const users = {
+    "admin": "admin12345",
+    "guest": "guest1",
+    "mathpro": "algebra2026isgood"
+  };
 
-if (userInput === null || userInput !== "realgamesin2026") {
-    window.location.href = "https://www.google.com/Acces_Denied._Subscription_Key_Required_To_Unlock_Extended_Algebra_Problems.";
-}
-} else {
-    window.location.href = "https://www.google.com/Acces_Denied._Subscription_Key_Required_To_Unlock_Extended_Algebra_Problems.";
-}
+  alert("Note, you are accessing our premium math problems, so it requires a login.");
 
+  if (confirm("Would you like to sign in, or leave our website?")) {
+    let userEntry = prompt("Please enter your Username:");
+    let passEntry = prompt("Please enter your Password:");
+
+    // 2. Check if the username exists AND if the password matches
+    if (users[userEntry] && users[userEntry] === passEntry) {
+      alert("Access Granted! Welcome, " + userEntry + ".");
+    } else {
+      alert("Invalid login credentials.");
+      window.location.href = "https://www.google.com/Access_Denied";
+    }
+  } else {
+    window.location.href = "https://www.google.com/Access_Denied";
+  }
 </script>
 
+</script>
+SCROLL DOWN FOR MORE STUFF!
 COMING SOON: Embedded games, right in this website.
 contact me if u wanna see the games kit (:
 Also, you need a way to actually access the game stash, so this is a good unblocked way to access it.
