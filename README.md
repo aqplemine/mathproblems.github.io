@@ -25,8 +25,6 @@ if (userInput === null || userInput !== "realgamesin2026") {
     window.location.href = "https://www.google.com/Acces_Denied._Subscription_Key_Required_To_Unlock_Extended_Algebra_Problems.";
 }
 
-</script>
-
 function startGame() {
   myGamePiece = new component(30, 30, "red", 10, 120);
   myGamePiece.gravity = 0.05;
@@ -47,6 +45,9 @@ var myGameArea = {
     this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
   }
 }
+
+
+</script>
 
 COMING SOON: Embedded games, right in this website.
 THE FILE DRIVE GAMES KIT IS DOWN! I'M FIXING IT!
