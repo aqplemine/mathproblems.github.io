@@ -1,66 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="https://rawcdn.githack.com/genizy/google-class/main/ragdoll-hit/">
+    <meta charset="UTF-8">
+    <title>about:blank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            padding: 20px;
+        }
+        input, button {
+            font-size: 16px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
 
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="robots" content="noindex,nofollow">
+<h2>about:blank URL Viewer</h2>
 
-    <title>Ragdoll Hit - Poki</title>
+<input id="url" placeholder="https://example.com" size="40">
+<button onclick="openBlank()">Open</button>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+<script>
+function openBlank() {
+    let url = document.getElementById("url").value.trim();
+    if (!url) return;
 
-    <script>
-        window.config = {
-            loader: 'unity-2020',
-            debug: false,
-            maxRatio: 24 / 9,
-            minRatio: 9 / 24,
-            title: 'Ragdoll Hit',
-            thumbnail: 'thumbnail.png',
-            numScreenshots: 4,
-            unityVersion: '2022.3.6f1',
-            unityWebglBuildUrl: '',
-            fileSize: 9,
-            cachedDecompressedFileSizes: {
-                '3276aa7c11496bcc48eb6908f112f0c3.js.unityweb': 66682,
-                '959bf1c60308f1c34bf072f43c3c17d4.data.unityweb': 4377721,
-                'f23c0f3f40a28f1adce731399dde22aa.wasm.unityweb': 5105161,
-                'v84.loader.js': 114199
-            },
-            metadata: {
-                "poki_template_version": 1,
-                "background_color": "#4D4D4D",
-                "code_filename": "f23c0f3f40a28f1adce731399dde22aa.wasm.unityweb",
-                "company_name": "Ericetto",
-                "data_filename": "959bf1c60308f1c34bf072f43c3c17d4.data.unityweb",
-                "decompression_fallback": "Brotli",
-                "development_player": "false",
-                "framework_filename": "3276aa7c11496bcc48eb6908f112f0c3.js.unityweb",
-                "height": "600",
-                "loader_filename": "v84.loader.js",
-                "product_name": "Ragdoll Hit",
-                "product_version": "0.1",
-                "splash_screen_style": "Dark",
-                "unity_version": "2022.3.6f1",
-                "use_data_caching": "true",
-                "use_threads": "false",
-                "use_wasm": "true",
-                "use_webgl_1_0": "true",
-                "use_webgl_2_0": "true",
-                "width": "960"
-            }
-        };
-    </script>
+    if (!url.startsWith("http://") && !url.startsWith("https://")) {
+        url = "https://" + url;
+    }
 
-    <script src="MobileDetect.js"></script>
+    const win = window.open("about:blank", "_blank");
+
+    win.document.open();
+    win.document.write(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>about:blank</title>
+            <style>
+                html, body {
+                    margin: 0;
+                    height: 100%;
+                    background: black;
+                }
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                }
+            </style>
+        </head>
+        <body>
+            <iframe src="${url}" allowfullscreen></iframe>
+        </body>
+        </html>
+    `);
+    win.document.close();
+}
+</script>
+
+</body>
+</html>
+
+<!-- OLD, Without about:blank, same site tho.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        #controls {
+            padding: 10px;
+            background: #1c1c1c;
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            flex: 1;
+            padding: 8px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+        }
+
+        button {
+            padding: 8px 14px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        iframe {
+            width: 100%;
+            height: calc(100vh - 52px);
+            border: none;
+            background: black;
+        }
+    </style>
 </head>
 
 <body>
 
-    <script src="/redirect-on-backtick.js"></script>
-    <script src="master-loader.js"></script>
+<div id="controls">
+    <input id="urlInput" type="text" placeholder="Enter URL (https://example.com)">
+    <button onclick="loadUrl()">View</button>
+</div>
+
+<iframe id="viewer"></iframe>
+
+<script>
+    function loadUrl() {
+        let url = document.getElementById("urlInput").value.trim();
+
+        if (!url) return;
+
+        // auto-add https if missing
+        if (!url.startsWith("http://") && !url.startsWith("https://")) {
+            url = "https://" + url;
+        }
+
+        document.getElementById("viewer").src = url;
+    }
+</script>
 
 </body>
 </html>
+-->
