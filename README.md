@@ -65,7 +65,7 @@ Wanna view any (visitable on your device) website, but it shows as about:blank? 
 
 <h2>about:blank URL Viewer</h2>
 
-<input id="url" placeholder="https://example.com (saying https not needed, saying http needed.)" size="50">
+<input id="url" placeholder="https://example.com (saying https is not needed, saying http is needed.)" size="100">
 <button onclick="openBlank()">Open</button>
 
 <script>
