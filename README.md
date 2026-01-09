@@ -41,9 +41,8 @@ if any of these files needs a password, its the same one in here. aka, realgames
         >View other online unblocked games (external, should be always unblocked!)</button>
   </body>
 </html>
-Wanna view any (visitable on your device) website, but it shows as about:blank? Well:
+Wanna view any (visitable on your device) website, but it shows as about:blank? Well: (better version + unblocked i think soon!)
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
