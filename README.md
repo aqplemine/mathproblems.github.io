@@ -28,7 +28,8 @@ if (userInput === null || userInput !== "realgamesin2026") {
 </script>
 COMING SOON: Embedded games, right in this website.
 THE FILE DRIVE GAMES KIT IS DOWN! I'M FIXING IT!
-if any of these files needs a password, its the same one in here.
+Also, you need a way to actually access the game stash, so this is a good unblocked way to access it.
+if any of these files needs a password, its the same one in here. aka, realgamesin2026 is the password.
 </body>
 </html>
 
