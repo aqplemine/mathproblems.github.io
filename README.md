@@ -28,13 +28,13 @@ if (userInput === null || userInput !== "realgamesin2026") {
 </script>
 
 COMING SOON: Embedded games, right in this website.
-THE FILE DRIVE GAMES KIT IS DOWN! I'M FIXING IT!
+contact me if u wanna see the games kit (:
 Also, you need a way to actually access the game stash, so this is a good unblocked way to access it.
 if any of these files needs a password, its the same one in here. aka, realgamesin2026 is the password.
 </body>
 </html>
 
-<a href="https://www.google.com/In_Fixing_Don't_Worry_I'm_Fixing_It!" target="_blank"><button>[IN FIXING][USE THE SAMEPASSCODE AS LISTED HERE] View my uploaded games (external, but by me)</button></a>
+<a href="https://www.google.com/In_Fixing_Don't_Worry_I'm_Fixing_It!" target="_blank"><button>[CONTACT ME TO VIEW][USE THE SAMEPASSCODE AS LISTED HERE] View my uploaded games (external, but by me)</button></a>
 <button 
         onclick='fetch("https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile@main/AASINGLEFILE.html?t="+Date.now()).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
         style="width: 100%; height: 100%; font-size: 100;"
