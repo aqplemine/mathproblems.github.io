@@ -40,6 +40,7 @@
 </script>
 
 </script>
+this is for educational purposes only.
 SCROLL DOWN FOR MORE STUFF!
 COMING SOON: Embedded games, right in this website.
 contact me if u wanna see the games kit (:
