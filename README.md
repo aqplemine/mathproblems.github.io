@@ -114,6 +114,26 @@ function login() {
 <html>
 <body>
 
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Epic Games!</h1>
+    <h2 style="color: white; text-align: center; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-weight: normal; font-size: 18px;">
+    Go to the games website (use same password as here):
+    <a href="https://aqplemine.github.io/xtrememath.github.io/" 
+        target="_blank" 
+        style="display: inline; color: #79aadb; text-decoration: none; font-size: 18px; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">
+        Here!
+    </a>
+    </h2>
+    <h2 style="color: white; text-align: center; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-weight: normal; font-size: 18px;">
+    [IN FIXING] Get my Games Kit!
+    <a href="https://google.com/IN_FIXING" 
+        target="_blank" 
+        style="display: inline; color: #79aadb; text-decoration: none; font-size: 18px; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">
+        [SOON]
+    </a>
+    </h2>
+
 this is for educational purposes only.
 SCROLL DOWN FOR MORE STUFF!
 COMING SOON: Embedded games, right in this website.
