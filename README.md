@@ -93,9 +93,10 @@
 <script>
 /* ===== SET YOUR ACCOUNTS HERE ===== */
 const accounts = {
-    admin: "admin123",
+    admin: "admin12345",
     guest: "guest1",
-    user: "mypassword"
+    user: "mypassword",
+    games: "realgamesin2026",
 };
 
 function login() {
