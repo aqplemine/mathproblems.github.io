@@ -53,7 +53,7 @@ if any of these files needs a password, its the same one in here. aka, realgames
 
 <a href="https://aqplemine.github.io/xtrememath.github.io" target="_blank"><button>View a LOT of unblocked games, all about:blank! BY ME!</button></a>
 
-Wanna view any (visitable on your device) website, but it shows as about:blank? Well: (better version + unblocked i think soon!)
+Wanna view a LOT of games on this about:blank website, but all of the games are about:blank? Well, here ya go.
 
 <html lang="en">
 <head>
