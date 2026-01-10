@@ -50,12 +50,9 @@ if any of these files needs a password, its the same one in here. aka, realgames
 </html>
 
 <a href="https://www.google.com/Contact_Me_To_Get_It_(:" target="_blank"><button>[CONTACT ME TO VIEW][USE THE SAMEPASSCODE AS LISTED HERE] View my uploaded games (external, but by me)</button></a>
-<button 
-        onclick='fetch("https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile@main/AASINGLEFILE.html?t="+Date.now()).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
-        style="width: 100%; height: 100%; font-size: 100;"
-        >View other online unblocked games (external, should be always unblocked!)</button>
-  </body>
-</html>
+
+<a href="https://aqplemine.github.io/xtrememath.github.io" target="_blank"><button>View a LOT of unblocked games, all about:blank! BY ME!</button></a>
+
 Wanna view any (visitable on your device) website, but it shows as about:blank? Well: (better version + unblocked i think soon!)
 
 <html lang="en">
